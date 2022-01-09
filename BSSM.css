@@ -1,3 +1,152 @@
 body {
-    background-color: aqua;
+    background-color: black;
+    /*border: 1px solid black;*/
+}
+
+.home {
+    position: relative;
+    background-color: black;
+}
+
+video {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: clac(100% -100px);
+    padding: 10px 50px;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    margin-right: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+}
+
+.B {
+    display: inline-block;
+    color: #f93741;
+}
+
+.S1 {
+    display: inline-block;
+    color: #0574ce;
+    margin-left: -6px;
+}
+
+.S2 {
+    display: inline-block;
+    color: #fead42;
+    margin-left: -6px;
+}
+
+.M {
+    display: inline-block;
+    color: #0ebbb6;
+    margin-left: -6px;
+}
+
+.nav {
+    margin-left: -20px;
+    display: flex;
+    color: white;
+    line-height: 36px;
+}
+
+.nav-item {
+    padding: 0 8px;
+}
+
+.banner {
+    margin-top: 70px;
+    width: 100%;
+    color: black;
+    padding: 50px 0;
+}
+
+.title {
+    font-size: 72px;
+}
+
+.badge {
+    font-size: 18px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+.description {
+    width: 40%;
+}
+
+.buttons {
+    display: flex;
+    padding: 20px 0;
+}
+
+.white-button {
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.gray-button {
+    color: white;
+    background-color: rgba(170, 170, 170, .4);
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.extra {
+    position: absolute;
+    right: 0;
+    width: 140px;
+    display: flex;
+}
+
+.replay-button {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 90%;
+}
+
+.rating {
+    background-color: rgba(170, 170, 170, .4);
+    border-left: 3px solid white;
+    padding-left: 10px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.rating img {
+    width: 34px;
+    height: 34px;
+    margin-top: 3px;
+}
+
+.category-list {}
+
+.category-title {
+    font-weight: 900;
+    color: white;
+    padding: 15px 0;
+}
+
+.list {
+    display: flex;
 }
