@@ -70,6 +70,25 @@ video {
     padding: 0 8px;
 }
 
+.menu {
+    display: flex;
+    margin-left: auto;
+    color: white;
+    line-height: 36px;
+}
+
+.menu-item {
+    padding: 0 10px;
+}
+
+.menu i {
+    line-height: 36px;
+}
+
+.menu .profile {
+    width: 34px;
+}
+
 .banner {
     background-color: rgba(170, 170, 170, .8);
     margin-top: 150px;
