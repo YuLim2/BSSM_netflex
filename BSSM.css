@@ -1,15 +1,19 @@
 body {
+    padding: 0;
+    margin: 0;
     background-color: black;
-    /*border: 1px solid black;*/
 }
 
 .home {
     position: relative;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
+    height: 100%;
 }
 
 video {
+    box-shadow: 4px 4px 4px 4px black inset;
     margin-top: 60px;
+    margin-bottom: 60px;
     width: 100%;
 }
 
@@ -67,10 +71,12 @@ video {
 }
 
 .banner {
-    margin-top: 70px;
-    width: 100%;
-    color: black;
-    padding: 50px 0;
+    background-color: rgba(170, 170, 170, .8);
+    margin-top: 150px;
+    width: 32%;
+    color: white;
+    padding: 50px 30px;
+    border-radius: 10px;
 }
 
 .title {
@@ -84,7 +90,7 @@ video {
 }
 
 .description {
-    width: 40%;
+    width: 100%;
 }
 
 .buttons {
@@ -103,7 +109,7 @@ video {
 
 .gray-button {
     color: white;
-    background-color: rgba(170, 170, 170, .4);
+    background-color: rgba(170, 170, 170, .8);
     padding: 10px 25px;
     border-radius: 4px;
     font-weight: 900;
@@ -116,6 +122,7 @@ video {
     right: 0;
     width: 140px;
     display: flex;
+    margin-top: 80px;
 }
 
 .replay-button {
@@ -139,9 +146,13 @@ video {
     margin-top: 3px;
 }
 
-.category-list {}
+.category-list {
+    margin-left: -40px;
+    margin-top: 150px;
+}
 
 .category-title {
+    font-size: 18px;
     font-weight: 900;
     color: white;
     padding: 15px 0;
@@ -149,4 +160,23 @@ video {
 
 .list {
     display: flex;
+}
+
+.movie {
+    padding: 6px;
+}
+
+.movie:hover {
+    transform: scale(1.5);
+    transition: 1s;
+    transition-delay: .3s;
+}
+
+.movie img {
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
